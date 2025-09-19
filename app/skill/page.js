@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Blog = () => {
+const Skill = () => {
     return (
         <div className=' w-full'>
             <div className='container md:mx-auto p-8  md:w-[60%]  shadow-xl'>
-                <h1 className='text-2xl mb-10 font-extrabold'>Blog</h1>
+                <h1 className='text-2xl mb-10 font-extrabold'>Specialization</h1>
                 <div className='m-3 '>
                     <h1 className=" text-xl font-bold">
                         Making a design system from scratch
@@ -90,4 +90,4 @@ const Blog = () => {
     )
 }
 
-export default Blog
+export default Skill
