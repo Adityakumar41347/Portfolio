@@ -1,90 +1,48 @@
-import React from 'react'
+"use client"
+import React, { useContext } from 'react';
+import Link from 'next/link';
+import { ModeContext } from '@/components/mode'
 
 const Skill = () => {
+    const { mode } = useContext(ModeContext)
     return (
-        <div className=' w-full'>
-            <div className='container md:mx-auto p-8  md:w-[60%]  shadow-xl'>
+        <div className={`${mode ? "bg-zinc-900 text-gray-300" : 'bg-white'}`}>
+            <div className={`${mode ? "bg-neutral-900  shadow-2xl" : 'bg-white'} rounded-3xl h-[77vh] container md:mx-auto p-8  md:w-[60%]  shadow-xl`}>
                 <h1 className='text-2xl mb-10 font-extrabold'>Specialization</h1>
                 <div className='m-3 '>
-                    <h1 className=" text-xl font-bold">
-                        Making a design system from scratch
-                    </h1>
+                    <Link href={"/web-dev"}><h1 className=" text-xl font-bold hover:underline">
+                        Full Stack Web Development
+                    </h1></Link>
                     <div>
-                        <p className="my-1  flex gap-4">
+                        <p className="my-4 mb-5 flex gap-1">
                             <span>12 Feb 2025</span>
                             <span>|</span>
-                            <span>Design Pattern</span>
+                            <span>Next.js, Node.js, MongoDB, Tailwind CSS,React</span>
                         </p>
                     </div>
-                    <p className='w-[76%]'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea provident numquam, voluptatum rem nemo ut esse minima ducimus dignissimos.
+                    <p>
+                        I build scalable web apps with clean UI and robust backend logic. From RESTful APIs to dynamic dashboards, I focus on modular architecture, performance, and production-grade reliability.
                     </p>
                 </div>
                 <hr className="w-[77%] border-t border-zinc-300 my-4 mr-auto" />
                 <div className='m-3 '>
-                    <h1 className=" text-xl font-bold">
-                        Making a design system from scratch
-                    </h1>
+                    <Link href={"/dsa"}><h1 className="text-xl hover:underline font-bold">
+                        Data Structures & Algorithms
+                    </h1></Link>
                     <div>
-                        <p className="my-1  flex gap-4">
-                            <span>12 Feb 2025</span>
+                        <p className="my-4 mb-5 flex gap-4 flex-wrap">
+                            <span>19 Sep 2025</span>
                             <span>|</span>
-                            <span>Design Pattern</span>
+                            <span>Recursion, Trees, Hashing, Arrays</span>
                         </p>
                     </div>
-                    <p className='w-[76%]'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea provident numquam, voluptatum rem nemo ut esse minima ducimus dignissimos.
+                    <p>
+                        I approach problem-solving with precision and strategy—breaking down complex challenges into modular, optimized solutions. My strength lies in debugging recursive flows, designing efficient tree traversals, and leveraging hashing for performance-critical tasks.
                     </p>
                 </div>
-                <hr className="w-[77%] border-t border-zinc-300 my-4 mr-auto" />
-                <div className='m-3 '>
-                    <h1 className=" text-xl font-bold">
-                        Making a design system from scratch
-                    </h1>
-                    <div>
-                        <p className="my-1  flex gap-4">
-                            <span>12 Feb 2025</span>
-                            <span>|</span>
-                            <span>Design Pattern</span>
-                        </p>
-                    </div>
-                    <p className='w-[76%]'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea provident numquam, voluptatum rem nemo ut esse minima ducimus dignissimos.
-                    </p>
-                </div>
-                <hr className="w-[77%] border-t border-zinc-300 my-4 mr-auto" />
-                <div className='m-3 '>
-                    <h1 className=" text-xl font-bold">
-                        Making a design system from scratch
-                    </h1>
-                    <div>
-                        <p className="my-1  flex gap-4">
-                            <span>12 Feb 2025</span>
-                            <span>|</span>
-                            <span>Design Pattern</span>
-                        </p>
-                    </div>
-                    <p className='w-[76%]'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea provident numquam, voluptatum rem nemo ut esse minima ducimus dignissimos.
-                    </p>
-                </div>
-                <hr className="w-[77%] border-t border-zinc-300 my-4 mr-auto" />
-                <div className='m-3 '>
-                    <h1 className=" text-xl font-bold">
-                        Making a design system from scratch
-                    </h1>
-                    <div>
-                        <p className="my-1  flex gap-4">
-                            <span>12 Feb 2025</span>
-                            <span>|</span>
-                            <span>Design Pattern</span>
-                        </p>
-                    </div>
-                    <p  className='w-[76%]'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ea provident numquam, voluptatum rem nemo ut esse minima ducimus dignissimos.
-                    </p>
-                </div>
-                <hr className="w-[77%] border-t border-zinc-300 my-4 mr-auto" />
+                
+                
+                
             </div>
         </div>
     )
