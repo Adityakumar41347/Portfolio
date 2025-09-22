@@ -15,9 +15,9 @@ Welcome to my personal portfolio — a showcase of my journey as a backend devel
 - 🌗 **Dark mode support**: Powered by `ModeContext` for seamless theme switching.
 - 🔐 **Authentication flows**: GitHub OAuth integration and secure backend routing.
 - 📈 **Projects**:
-  - [Petreton Clone](#): Modular Flask backend + responsive UI
-  - [Linktree Clone](#): MongoDB integration + custom link styling
-  - [DSA Section](#): Recursion, backtracking, and graph algorithms with visual clarity
+  - [Petreton Clone](https://github.com/Adityakumar41347/Patreon-Clone-): Modular Flask backend + responsive UI
+  - [Linktree Clone](https://github.com/CodeWithHarry/Sigma-Web-Dev-Course/tree/main/Video%20137/linktree-clone): MongoDB integration + custom link styling
+  - [DSA Section](): Recursion, backtracking, and graph algorithms with visual clarity
 
 ## 🧪 Development
 
