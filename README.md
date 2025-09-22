@@ -7,7 +7,6 @@ Welcome to my personal portfolio — a showcase of my journey as a backend devel
 - **Frontend**: Next.js, React, Tailwind CSS
 - **Backend**: Node.js, Express, Flask (modular APIs), MongoDB
 - **Design**: Mobile-first UI/UX, custom link styling, dynamic metadata
-- **Integrations**: Razorpay payments, GitHub OAuth, RESTful APIs
 
 ## 📦 Features
 
