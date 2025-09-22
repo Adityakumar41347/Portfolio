@@ -22,7 +22,7 @@ export default function Home() {
             <p className=" mt-3 h-[120px] overflow-y-scroll no-scrollbar">I’m Aditya—a creative technologist who thrives at the intersection of design, code, and systems thinking. I build intuitive, production-ready web experiences from scratch, blending aesthetic precision with backend logic. Whether it’s architecting dashboards, optimizing workflows, or experimenting with new frameworks, I approach each challenge with curiosity, clarity, and a touch of rebellion against the ordinary. My work isn’t just about pixels or performance—it’s about crafting tools that feel alive, purposeful, and scalable.</p>
 
           </div>
-          <img src="/profi8le.jpg" alt="image not found" className="md:w-60 md:h-60 w-30 h-30 object-cover rounded-full" />
+          <img src="/profile.jpg" alt="image not found" className="md:w-60 md:h-60 w-30 h-30 object-cover rounded-full" />
         </div>
         <button onClick={() => {
           const link = document.createElement('a');
@@ -33,7 +33,7 @@ export default function Home() {
       </div>
       <div className=" second  mx-auto container w-full md:w-[80%]  flex p-2  flex-col  md:mt-4">
         <div className="w-[91%] md:pl-30 flex justify-between my-2">
-          <div className="text-blue-500">Skills</div>
+          <div className="">Skills</div>
           <Link href={`${process.env.NEXT_PUBLIC_HOST}/skill`}><div className="text-blue-500 hover:underline">viewall</div></Link>
         </div>
         <div className=" w-full md:w-[91%] md:ml-20  flex flex-col md:flex-row gap-6 justify-center items-center">
