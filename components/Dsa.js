@@ -2,6 +2,7 @@
 import React from 'react'
 import { useContext } from 'react'
 import { ModeContext } from '@/components/mode'
+import img from 'next/img';
 
 const DSA = () => {
   const { mode } = useContext(ModeContext)
@@ -14,8 +15,8 @@ const DSA = () => {
         <section className="mb-10">
           <h2 className="text-2xl font-semibold mb-2">🧠 My Approach to DSA</h2>
           <p>
-            Data Structures and Algorithms aren’t just interview prep—they’re the foundation of how I think. I approach problems with clarity,
-            break them into modular steps, and optimize for both time and space. Whether it’s recursion, dynamic programming, or graph traversal,
+            Data Structures and Algorithms arent just interview prep—theyre the foundation of how I think. I approach problems with clarity,
+            break them into modular steps, and optimize for both time and space. Whether its recursion, dynamic programming, or graph traversal,
             I build solutions that scale and explain themselves.
           </p>
         </section>
@@ -35,7 +36,7 @@ const DSA = () => {
         <section className="mb-10">
           <h2 className="text-2xl font-semibold mb-2">🧪 Problem Solving Mindset</h2>
           <p>
-            I don’t rush to code—I analyze edge cases, visualize recursion trees, and write dry runs before implementation.
+            I dont rush to code—I analyze edge cases, visualize recursion trees, and write dry runs before implementation.
             I debug with intent, using print traces, stack snapshots, and test cases that expose hidden flaws.
             My goal is not just to solve, but to understand and explain.
           </p>
@@ -53,15 +54,15 @@ const DSA = () => {
           <h2 className="text-2xl font-semibold mb-2">🚀 Real-World Impact</h2>
           <p>
             My DSA skills directly influence how I build backend logic, optimize database queries, and structure frontend state.
-            Whether it’s designing a search algorithm for a dashboard or optimizing link rendering in a portfolio, I apply algorithmic thinking to real code.
+            Whether its designing a search algorithm for a dashboard or optimizing link rendering in a portfolio, I apply algorithmic thinking to real code.
           </p>
         </section>
 
         <section className="mb-10">
           <h2 className="text-2xl font-semibold mb-2">🎯 Why It Matters</h2>
           <p>
-            DSA is more than theory—it’s how I stay sharp, think clearly, and build systems that work under pressure.
-            It’s the difference between code that runs and code that scales.
+            DSA is more than theory—its how I stay sharp, think clearly, and build systems that work under pressure.
+            Its the difference between code that runs and code that scales.
           </p>
         </section>
 

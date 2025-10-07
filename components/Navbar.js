@@ -5,6 +5,7 @@ import { useState } from 'react'
 import { usePathname  } from 'next/navigation'
 import { useContext } from 'react';
 import { ModeContext } from "@/components/mode";
+
 const Navbar = () => {
   const path= usePathname()
   const { mode,setMode } = useContext(ModeContext);

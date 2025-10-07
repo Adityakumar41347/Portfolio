@@ -14,9 +14,9 @@ const WebDev = () => {
         <section className="mb-10">
           <h2 className="text-2xl font-semibold mb-2">👨‍💻 My Philosophy</h2>
           <p>
-            I don’t just build websites—I architect digital experiences. Every line of code I write is intentional, modular, and scalable.
+            I dont just build websites—I architect digital experiences. Every line of code I write is intentional, modular, and scalable.
             I believe in clarity over complexity, and I design systems that reflect both technical rigor and personal authenticity.
-            Whether it’s a minimalist portfolio or a full-stack SaaS platform, I build with purpose.
+            Whether its a minimalist portfolio or a full-stack SaaS platform, I build with purpose.
           </p>
         </section>
 
@@ -38,7 +38,7 @@ const WebDev = () => {
         <section className="mb-10">
           <h2 className="text-2xl font-semibold mb-2">🧠 Technical Strengths</h2>
           <p>
-            I’m known for my debugging precision and architectural clarity. I optimize recursive algorithms, manage complex state flows,
+            Im known for my debugging precision and architectural clarity. I optimize recursive algorithms, manage complex state flows,
             and ensure backend operations are secure and efficient. I handle file uploads, database queries, and RESTful APIs with confidence.
           </p>
           <ul className="list-disc list-inside mt-3">
@@ -52,8 +52,8 @@ const WebDev = () => {
         <section className="mb-10">
           <h2 className="text-2xl font-semibold mb-2">🚀 Projects That Reflect Me</h2>
           <p>
-            I build projects that are not just functional—they’re personal. Each one is a reflection of my design philosophy and technical depth.
-            From the Linktree clone to Petreton, I’ve built platforms that centralize identity, streamline workflows, and empower creators.
+            I build projects that are not just functional—theyre personal. Each one is a reflection of my design philosophy and technical depth.
+            From the Linktree clone to Petreton, Ive built platforms that centralize identity, streamline workflows, and empower creators.
           </p>
           <ul className="list-disc list-inside mt-3">
             <li><strong>Linktree Clone:</strong> Modular, responsive, theme-aware link manager with MongoDB backend</li>
@@ -65,7 +65,7 @@ const WebDev = () => {
         <section className="mb-10">
           <h2 className="text-2xl font-semibold mb-2">🎯 What Drives Me</h2>
           <p>
-            I thrive on clarity, feedback, and authenticity. I’m not afraid to challenge vague specs or refine misleading descriptions—
+            I thrive on clarity, feedback, and authenticity. Im not afraid to challenge vague specs or refine misleading descriptions—
             I make sure the tech matches the talk. I build systems that scale, designs that speak, and experiences that feel human.
           </p>
         </section>

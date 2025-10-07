@@ -2,6 +2,7 @@
 import React, { useContext } from 'react';
 import { ModeContext } from '@/components/mode'
 import Link from 'next/link';
+
 const Work = () => {
     const {mode}=useContext(ModeContext)
     return (

@@ -1,5 +1,5 @@
 "use client"
-import Image from "next/image";
+
 import { useState, } from "react";
 import { useContext } from 'react';
 import { ModeContext } from "@/components/mode";
@@ -22,7 +22,7 @@ export default function Home() {
             <p className=" mt-3 h-[120px] overflow-y-scroll no-scrollbar">I’m Aditya—a creative technologist who thrives at the intersection of design, code, and systems thinking. I build intuitive, production-ready web experiences from scratch, blending aesthetic precision with backend logic. Whether it’s architecting dashboards, optimizing workflows, or experimenting with new frameworks, I approach each challenge with curiosity, clarity, and a touch of rebellion against the ordinary. My work isn’t just about pixels or performance—it’s about crafting tools that feel alive, purposeful, and scalable.</p>
 
           </div>
-          <img src="/profile.jpg" alt="image not found" className="md:w-60 md:h-60 w-30 h-30 object-cover rounded-full" />
+          <img src="/profile.jpg" alt="img not found" className="md:w-60 md:h-60 w-30 h-30 object-cover rounded-full" />
         </div>
         <button onClick={() => {
           const link = document.createElement('a');

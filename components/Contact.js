@@ -21,8 +21,8 @@ const Contact = () => {
 
         <section className="mb-10">
           <p className="text-lg">
-            Whether you want to collaborate, ask a question, or just say hi — I’d love to hear from you.
-            I’m always open to discussing new projects, solving tough problems, or sharing ideas.
+            Whether you want to collaborate, ask a question, or just say hi — I d love to hear from you.
+            Im always open to discussing new projects, solving tough problems, or sharing ideas.
           </p>
         </section>
 
@@ -65,7 +65,7 @@ const Contact = () => {
         </section>
 
         <footer className="mt-12 text-sm text-center">
-          Built with ❤️ using Next.js and Tailwind CSS. Let’s build something amazing together.
+          Built with ❤️ using Next.js and Tailwind CSS. Lets build something amazing together.
         </footer>
       </div>
     </div>
