@@ -21,8 +21,8 @@ const Contact = () => {
 
           <section className="mb-10">
             <p className="text-lg">
-              Whether you want to collaborate, ask a question, or just say hi — I&apos;d love to hear from you.
-              I&apos;m always open to discussing new projects, solving tough problems, or sharing ideas.
+              Whether you want to collaborate, ask a question, or just say hi I d love to hear from you.
+              I am always open to discussing new projects, solving tough problems, or sharing ideas.
             </p>
           </section>
 
