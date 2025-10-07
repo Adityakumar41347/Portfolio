@@ -17,7 +17,7 @@ const Contact = () => {
     </Head>
     <div className={`${mode ? "bg-zinc-900 text-gray-300" : "bg-white text-gray-900"} min-h-screen`}>
       <div className="container mx-auto md:p-10 p-4 md:w-[70%]">
-        <h1 className="text-4xl font-bold mb-6">Let's Connect</h1>
+        <h1 className="text-4xl font-bold mb-6">Lets Connect</h1>
 
         <section className="mb-10">
           <p className="text-lg">
