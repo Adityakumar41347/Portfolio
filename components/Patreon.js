@@ -3,7 +3,7 @@ import React from 'react'
 import Link from 'next/link'
 import { useContext } from 'react'
 import { ModeContext } from '@/components/mode'
-import img from 'next/img';
+
 const Petreton = () => {
     const { mode } = useContext(ModeContext)
     return (

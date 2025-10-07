@@ -2,7 +2,7 @@
 import React from 'react'
 import { useContext } from 'react'
 import { ModeContext } from '@/components/mode'
-import img from 'next/img';
+
 
 const DSA = () => {
   const { mode } = useContext(ModeContext)
