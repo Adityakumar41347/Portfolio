@@ -2,7 +2,7 @@
 import React from 'react'
 import { useContext } from 'react'
 import { ModeContext } from '@/components/mode'
-
+import Link from 'next/link'
 
 const DSA = () => {
   const { mode } = useContext(ModeContext)
@@ -11,7 +11,7 @@ const DSA = () => {
     <div className={`${mode ? "bg-zinc-900 text-gray-300" : "bg-white text-gray-900"} min-h-screen`}>
       <div className="container mx-auto md:p-10 p-4 md:w-[70%]">
         <h1 className="text-4xl font-bold mb-6">Solving Problems with Structure & Strategy</h1>
-
+        Follow links- <Link className="hover:underline text-blue-600 " href={"https://leetcode.com/u/Thanosisreal/"} target="_blank">Leetcode</Link>, <Link className="hover:underline text-blue-600" href={"https://www.geeksforgeeks.org/user/adityakum2l0f/"} target="_blank">GfG</Link>
         <section className="mb-10">
           <h2 className="text-2xl font-semibold mb-2">🧠 My Approach to DSA</h2>
           <p>

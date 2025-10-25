@@ -58,9 +58,9 @@ export default function Home() {
             </h1></Link>
             <div>
               <p className="my-4 mb-5 flex gap-4 flex-wrap">
-                <span>19 Sep 2025</span>
+                <span>19 Sep 2025</span> 
                 <span>|</span>
-                <span>Recursion, Trees, Hashing, Arrays</span>
+                <span><Link className="hover:underline" href={"https://leetcode.com/u/Thanosisreal/"} target="_blank">Leetcode</Link>, <Link className="hover:underline" href={"https://www.geeksforgeeks.org/user/adityakum2l0f/"} target="_blank">GfG</Link></span>
               </p>
             </div>
             <p>

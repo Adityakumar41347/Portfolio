@@ -6,7 +6,7 @@ import { ModeContext } from '@/components/mode'
 const Skill = () => {
     const { mode } = useContext(ModeContext)
     return (
-        <div className={`${mode ? "bg-zinc-900 text-gray-300" : 'bg-white'}`}>
+        <div className={  ` md:h-[77vh] ${mode ? "bg-zinc-900 text-gray-300" : 'bg-white'}`}>
             <div className={`${mode ? "bg-neutral-900  shadow-2xl" : 'bg-white'} rounded-3xl h-[77vh] container md:mx-auto p-8  md:w-[60%]  shadow-xl`}>
                 <h1 className='text-2xl mb-10 font-extrabold'>Specialization</h1>
                 <div className='m-3 '>

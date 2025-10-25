@@ -6,10 +6,10 @@ import Link from 'next/link';
 const Work = () => {
     const {mode}=useContext(ModeContext)
     return (
-        <div className={`h-[77vh] ${mode?"bg-zinc-900 text-white": 'bg-white'}`}>
+        <div className={`md:h-[77vh]  ${mode?"bg-zinc-900 text-white": 'bg-white'} `}>
             <div className={`${mode ? "bg-neutral-900  shadow-2xl" : 'bg-white'} container md:mx-auto p-8   md:w-[60%]  shadow-xl`}>
                 <h1 className='text-2xl mb-10 font-extrabold'>Work</h1>
-                <div className=" flex gap-3 m-3">
+                <div className=" flex flex-col md:flex-row   gap-3 m-3">
                     <img className="w-65 h-45 rounded-2xl" src="/Page-1.png" alt="not found " />
                     <div className="">
                        <Link href={"/work/linktree"}> <h1 className="font-bold hover:underline text-2xl">Linktree</h1></Link>
@@ -21,7 +21,7 @@ const Work = () => {
                     </div>
                 </div>
                 <hr className="hidden md:block w-[77%] border-t border-zinc-300 my-4 mx-auto" />
-                <div className=" flex gap-3 m-3">
+                <div className=" flex flex-col md:flex-row  gap-3 m-3">
                     <img className="w-65 h-45 rounded-2xl" src="/pet-1.png" alt="not found " />
                     <div className=" ">
                         <Link href={"/work/patreon"}><h1 className="font-bold hover:underline text-2xl">Patreon-Clone</h1></Link>
