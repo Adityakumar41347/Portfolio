@@ -30,10 +30,10 @@ const Contact = () => {
             <h2 className="text-2xl font-semibold mb-4">📬 Contact Info</h2>
             <ul className="space-y-2">
               <li><strong>Name:</strong> Aditya Kumar</li>
-              <li><strong>Email:</strong> <a href="mailto:aditya@example.com" className="underline hover:text-blue-400">aditya@example.com</a></li>
-              <li><strong>Location:</strong> Hardwar, India</li>
+              <li><strong>Email:</strong> <a href="mailto:adityakumar41347@gmail.com" className="underline hover:text-blue-400">adityakumar41347.com</a></li>
+              <li><strong>Location:</strong> Haridwar, India</li>
               <li><strong>GitHub:</strong> <Link href="https://github.com/Adityakumar41347" target="_blank"><span className="underline hover:text-blue-400">github.com/Adityakumar41347</span></Link></li>
-              <li><strong>LinkedIn:</strong> <Link href="https://linkedin.com/in/aditya" target="_blank"><span className="underline hover:text-blue-400">linkedin.com/in/aditya</span></Link></li>
+              <li><strong>LinkedIn:</strong> <Link href="https://www.linkedin.com/in/aditya-kumar-348927323/" target="_blank"><span className="underline hover:text-blue-400">linkedin.com/in/aditya</span></Link></li>
             </ul>
           </section>
 
