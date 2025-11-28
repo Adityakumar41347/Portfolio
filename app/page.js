@@ -75,31 +75,30 @@ export default function Home() {
           <h2 >Feature Work</h2>
           <Link href={"/work"}><h2 className="text-blue-500 hover:underline">Viewall</h2></Link>
         </div>
-        <div className="md:px-30 flex flex-col md:flex-row gap-1 m-3">
+        <Link href={"/work/linktree"}><div className="md:px-30 flex flex-col md:flex-row gap-1 m-3">
           <img className="md:w-65 w-[80%] h-45 rounded-2xl" src="/Page-1.png" alt="not found " />
           <div className=" ">
-            <Link href={"/work/linktree"}><h1 className="font-bold text-2xl hover:underline">Linktree</h1></Link>
+            <h1 className="font-bold text-2xl hover:underline">Linktree</h1>
             <div className="flex gap-3 py-4">
-              <Link href={"https://github.com/Adityakumar41347/Linktree-clone"}><span className="bg-black rounded-full px-3 text-white" >Github</span></Link>
+              <span className="bg-black rounded-full px-3 text-white" >Github</span>
               <span className="font-light">Web dev</span>
             </div>
             <p>A sleek Linktree clone that centralizes your online presence—built with modular components, responsive design, and theme toggling. Users can share multiple links through a customizable, dark/light mode-enabled profile hub.</p>
           </div>
-
-        </div>
+        </div></Link>
         <hr className="w-[77%] border-t border-zinc-300 my-4 mx-auto" />
 
-        <div className=" hidden   md:px-30 md:flex gap-1 m-3">
+        <Link href={'/work/patreon'}><div className=" hidden   md:px-30 md:flex gap-1 m-3">
           <img className="w-65 h-45 rounded-2xl" src="/pet-1.png" alt="not found " />
           <div className=" ">
-            <Link href={'/work/patreon'}><h1 className="font-bold text-2xl hover:underline">Patreon-clone</h1></Link>
+            <h1 className="font-bold text-2xl hover:underline">Patreon-clone</h1>
             <div className="flex gap-3 py-4">
-              <Link href={"https://github.com/Adityakumar41347/Patreon-Clone-"}><span className="bg-black rounded-full px-3 text-white" >Github</span></Link>
+              <span className="bg-black rounded-full  px-3 text-white" >Github</span>
               <span className="font-light">Web dev</span>
             </div>
             <p>Petreton is a Patreon-inspired platform for creators to manage subscriptions, showcase content, and receive payments with Razorpay integration.</p>
           </div>
-        </div>
+        </div></Link>
         <hr className="hidden md:block w-[77%] border-t border-zinc-300 my-4 mx-auto" />
         
 
